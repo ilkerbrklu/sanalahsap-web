@@ -1,0 +1,59 @@
+.wood-wrap {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.line {
+    position: absolute;
+    background-color: #000;
+    pointer-events: none;
+    margin: 9.8% 21.8%;
+    max-width: 56%;
+    max-height: 88.1%;
+}
+
+@keyframes lineAnimetion_Y {
+    from {
+        height: 0%;
+    }
+    to {
+        height: 100%;
+    }
+}
+
+@keyframes lineAnimetion_X {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 40%;
+    }
+}
+
+@keyframes lineAnimetion_X-25 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 25%;
+    }
+}
+
+@keyframes lineAnimetion_X-30 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 30%;
+    }
+}
+
+@keyframes lineAnimetion_X-35 {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 35%;
+    }
+}
